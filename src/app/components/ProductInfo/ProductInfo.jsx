@@ -4,7 +4,7 @@ import Galeria from "./Galerias/Galeria";
 const ProductInfo = () => {
   return (
     <>
-      <Grid container spacing={2}>
+      <Grid container marginTop={5} spacing={2}>
         <Grid item xs={6}>
           <Breacrumb />
           <Galeria />
