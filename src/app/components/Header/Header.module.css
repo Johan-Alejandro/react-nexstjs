@@ -1,0 +1,14 @@
+.myheader {
+  background-color: #eb00d3;
+  width: 1440pxs;
+  height: 80px;
+}
+.title {
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  color: white;
+  width: Fixed (145px) px;
+  height: Fixed (49px) px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,14 @@
+.Menu1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eb00d3;
+  height: 46px;
+}
+.btns a {
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
