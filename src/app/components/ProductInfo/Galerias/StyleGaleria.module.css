@@ -1,9 +1,7 @@
 .principal {
-  margin: 50px;
+  margin: 20px;
 }
-.img1 {
-  width: 459px;
+.principal img {
+  width: 400px;
   height: 400px;
-  align-items: center;
-  justify-content: center;
 }

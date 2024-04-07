@@ -1,6 +1,7 @@
 import Grid from "@mui/material/Grid";
 import Breacrumb from "./Breacrumb/Breacrumb";
 import Galeria from "./Galerias/Galeria";
+import Description from "./Description/Description";
 const ProductInfo = () => {
   return (
     <>
@@ -10,7 +11,7 @@ const ProductInfo = () => {
           <Galeria />
         </Grid>
         <Grid item xs={6}>
-          2
+          <Description />
         </Grid>
       </Grid>
     </>

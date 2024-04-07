@@ -1,0 +1,78 @@
+.title {
+  font-family: "Outfit", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #4d525c;
+}
+
+.product {
+  font-family: "Outfit", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: #4d525c;
+}
+.desc {
+  width: 74px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  color: white;
+  background-color: #eb00d3;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+}
+.pricefinish {
+  font-family: "Outfit", sans-serif;
+  font-size: 32px;
+  color: #eb00d3;
+  font-weight: 700;
+}
+.priceof {
+  width: 101px;
+  height: 23px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #666687;
+  text-decoration: line-through;
+}
+.envios {
+  width: 90px;
+  height: 18px;
+  padding: 2px 2px;
+  margin: 2px;
+  line-height: 21.02px;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 8px;
+  background-color: #00fff033;
+  color: #07706a;
+}
+.cod {
+  width: 175px;
+  height: 15px;
+  margin-left: 6px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 27px;
+  color: #4a4a6a;
+}
+.details {
+  width: 520px;
+  height: 169px;
+  border-radius: 5px;
+  padding: 2px 2px 2px 2px;
+  gap: 10px;
+  background-color: #f5f4f4;
+}
+.text {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 12px;
+  line-height: 27px;
+  color: #4a4a6a;
+}
