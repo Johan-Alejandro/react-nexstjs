@@ -1,24 +1,7 @@
-.controls {
-  width: 514px;
-  height: 40px;
-  gap: 16px;
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-}
-.add {
-  color: #ffffff;
-  background-color: #eb00d3;
-  width: 200px;
-  text-align: center;
-  border-radius: 5px;
-  border: 0;
+.title {
   font-family: "Outfit", sans-serif;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 18.9px;
-}
-.controls input {
-  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
 }

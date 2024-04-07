@@ -1,0 +1,12 @@
+.select {
+  /*  */
+}
+.custom-checkbox {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #000; /* Color del punto cuando está seleccionado */
+  margin-left: 5px;
+  vertical-align: middle;
+}

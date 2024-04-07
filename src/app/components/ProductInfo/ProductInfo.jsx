@@ -1,3 +1,4 @@
+"useClient";
 import Grid from "@mui/material/Grid";
 import Breacrumb from "./Breacrumb/Breacrumb";
 import Galeria from "./Galerias/Galeria";

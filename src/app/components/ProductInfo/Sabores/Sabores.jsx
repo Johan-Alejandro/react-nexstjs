@@ -1,5 +1,26 @@
+import { useEffect, useState } from "react";
+import axios from "axios";
 import classes from "./StyleSabores.module.css";
+
 const Sabores = () => {
+  const [sabores, setSabores] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const apiUrl = "https://preapi.aquaforce.cl/api/sabores";
+        const response = await axios.get(apiUrl);
+        if (response.status === 200) {
+          setSabores(response.data.sabores); // Accede a la propiedad "sabores"
+        }
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   return (
     <>
       <div className={classes.sabores}>
@@ -13,12 +34,15 @@ const Sabores = () => {
           <option value="" disabled>
             Escoge un sabor
           </option>
-          <option value="Vainilla">Vainilla</option>
-          <option value="Chocolate">Chocolate</option>
-          <option value="Fresas">Fresas</option>
+          {sabores.map((sabor) => (
+            <option key={sabor.name} value={sabor.name}>
+              {sabor.name}
+            </option>
+          ))}
         </select>
       </div>
     </>
   );
 };
+
 export default Sabores;

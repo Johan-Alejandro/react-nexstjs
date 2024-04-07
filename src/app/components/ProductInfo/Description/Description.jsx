@@ -1,4 +1,6 @@
+"useClient";
 import Sabores from "../Sabores/Sabores";
+import Select from "../Select/Select";
 import Envio from "../Envio/Envio";
 import classes from "./StyleDescription.module.css";
 
@@ -29,6 +31,7 @@ const Description = () => {
         </p>
       </div>
       <Sabores />
+      <Select />
       <Envio />
     </>
   );
