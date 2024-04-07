@@ -1,0 +1,13 @@
+.title {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
+.select {
+  width: 208px;
+  height: 40px;
+  border-color: #eb00d3;
+  color: #eb00d3;
+}

@@ -1,3 +1,5 @@
+import Sabores from "../Sabores/Sabores";
+import Envio from "../Envio/Envio";
 import classes from "./StyleDescription.module.css";
 
 const Description = () => {
@@ -26,6 +28,8 @@ const Description = () => {
           acelarar el aumento de músculo y la fuerza.
         </p>
       </div>
+      <Sabores />
+      <Envio />
     </>
   );
 };

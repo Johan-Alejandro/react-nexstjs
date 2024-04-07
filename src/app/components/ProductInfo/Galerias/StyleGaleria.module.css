@@ -1,7 +1,19 @@
+.container {
+  margin-bottom: 5px;
+}
 .principal {
-  margin: 20px;
+  width: 534px;
+  height: 440px;
+  margin-bottom: 2px;
+  padding-bottom: 0px;
 }
 .principal img {
-  width: 400px;
-  height: 400px;
+  height: 480px;
+}
+.slider {
+  width: 534px;
+  height: 140px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
