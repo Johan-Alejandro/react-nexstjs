@@ -1,9 +1,12 @@
 import Imagen1 from "../../../Images/imagenprincipal.png";
+import Image from "next/legacy/image";
 import classes from "./StyleGaleria.module.css";
 const Galeria = () => {
   return (
     <div className={classes.principal}>
-      <img src={Imagen1} alt="imagen principal" />
+      <figure>
+        <Image src={Imagen1}></Image>
+      </figure>
     </div>
   );
 };
