@@ -1,7 +1,7 @@
 import Imagen1 from "../../../Images/imagenprincipal.png";
 import Image from "next/legacy/image";
-import classes from "./StyleGaleria.module.css";
-const Galeria = () => {
+import classes from "./StyleGalery.module.css";
+const Galery = () => {
   return (
     <div className={classes.container}>
       <div className={classes.principal}>
@@ -15,4 +15,4 @@ const Galeria = () => {
     </div>
   );
 };
-export default Galeria;
+export default Galery;

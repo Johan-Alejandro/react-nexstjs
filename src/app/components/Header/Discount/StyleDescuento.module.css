@@ -1,11 +1,11 @@
 .descuento {
   background-color: #000;
   color: #fff;
+  width: 100vw;
   height: 43px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 0px 24px;
 }
 
 .title {

@@ -25,13 +25,13 @@ const TopMenuButtons = () => {
   return (
     <div className={classes.btns1}>
       {buttons.map((button, index) => (
-        <>
-          <a href={button.href} key={index}>
+        <React.Fragment key={index}>
+          <a href={button.href}>
             {button.icon}
             <span>{button.title}</span>
           </a>
           <span className={classes.btnSeparator}>|</span>
-        </>
+        </React.Fragment>
       ))}
     </div>
   );
