@@ -11,7 +11,7 @@ const Sabores = () => {
         const apiUrl = "https://preapi.aquaforce.cl/api/sabores";
         const response = await axios.get(apiUrl);
         if (response.status === 200) {
-          setSabores(response.data.sabores); // Accede a la propiedad "sabores"
+          setSabores(response.data.sabores);
         }
       } catch (error) {
         console.error("Error fetching data:", error);

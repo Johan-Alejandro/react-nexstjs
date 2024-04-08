@@ -5,7 +5,7 @@ const Galeria = () => {
   return (
     <div className={classes.container}>
       <div className={classes.principal}>
-        <Image src={Imagen1}></Image>
+        <Image src={Imagen1} priority></Image>
       </div>
       <div className={classes.slider}>
         <Image src={Imagen1}></Image>

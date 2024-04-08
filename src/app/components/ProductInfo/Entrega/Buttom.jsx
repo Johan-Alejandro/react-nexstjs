@@ -4,10 +4,8 @@ const Buttom = () => {
   return (
     <div>
       <button>
-        <LocalShippingIcon />
         entrega a domicilio
         <input className={classes.select} type="checkbox" name="" id="" />
-        <span class="custom-checkbox"></span>
       </button>
     </div>
   );
