@@ -16,3 +16,12 @@
   text-align: center;
   margin-right: 160px;
 }
+
+@media (max-width: 1200px) {
+  .title {
+    margin-right: 0px;
+  }
+  .descuento {
+    justify-content: center;
+  }
+}

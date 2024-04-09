@@ -10,7 +10,7 @@ const Header = () => {
         <h1 className={classes.title}>
           {process.env.NEXT_PUBLIC_COMPANY_NAME}
         </h1>
-        <NavBar />
+        <NavBar className={classes.navBarContainer} />
       </header>
     </>
   );

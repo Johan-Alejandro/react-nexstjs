@@ -3,15 +3,23 @@
   flex-direction: column;
   background-color: #eb00d3;
   width: 100vw;
-  height: 141px;
+  align-items: center;
 }
 
 .title {
   font-family: "Outfit", sans-serif;
   text-align: center;
   color: white;
-  width: 145px px;
-  height: 49px px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 7px;
+  margin-bottom: 11px;
+}
+
+.navBarContainer {
+  display: block;
+}
+
+@media (max-width: 1200px) {
+  .navBarContainer {
+    display: none;
+  }
 }

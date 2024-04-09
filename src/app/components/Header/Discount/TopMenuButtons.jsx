@@ -22,6 +22,7 @@ const TopMenuButtons = () => {
       href: "/tiendas",
     },
   ];
+
   return (
     <div className={classes.btns1}>
       {buttons.map((button, index) => (
