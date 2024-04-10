@@ -5,6 +5,7 @@
 @media (min-width: 1200px) {
   .btns1 {
     display: block;
+    padding: 0px 20px;
   }
 }
 

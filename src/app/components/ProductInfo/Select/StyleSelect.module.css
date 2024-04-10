@@ -1,3 +1,7 @@
+.container {
+  max-width: 80%;
+}
+
 .controls {
   width: 514px;
   height: 40px;
@@ -7,6 +11,7 @@
   flex-direction: row;
   gap: 10px;
 }
+
 .add {
   color: #ffffff;
   background-color: #eb00d3;
@@ -19,6 +24,18 @@
   font-size: 15px;
   line-height: 18.9px;
 }
+
 .controls input {
   text-align: center;
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 100%;
+    max-width: none;
+  }
+  .controls {
+    width: 100%;
+    gap: 10px;
+  }
 }

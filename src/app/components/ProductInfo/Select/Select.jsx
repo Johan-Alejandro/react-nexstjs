@@ -15,11 +15,13 @@ const Select = () => {
   };
 
   return (
-    <div className={classes.controls}>
-      <button onClick={decreaseQuantity}>-</button>
-      <input type="number" value={quantity} readOnly />
-      <button onClick={increaseQuantity}>+</button>
-      <button className={classes.add}>Agregar Al Carrito</button>
+    <div className={classes.container}>
+      <div className={classes.controls}>
+        <button onClick={decreaseQuantity}>-</button>
+        <input type="number" value={quantity} readOnly />
+        <button onClick={increaseQuantity}>+</button>
+        <button className={classes.add}>Agregar Al Carrito</button>
+      </div>
     </div>
   );
 };

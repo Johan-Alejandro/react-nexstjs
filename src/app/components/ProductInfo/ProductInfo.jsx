@@ -8,7 +8,7 @@ const ProductInfo = () => {
   return (
     <>
       <Grid className={classes.principal} container spacing={2}>
-        <Grid className={classes.galery} item xs={12} md={6}>
+        <Grid className={classes.galery} item xs={true} md={6}>
           <Breacrumb />
           <Galery />
         </Grid>

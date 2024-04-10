@@ -1,5 +1,5 @@
 import classes from "./StyleDescuento.module.css";
-import TopMenuButtons from "./TopMenuButtons";
+import TopMenuButtons from "../TopMenu/TopMenuButtons";
 
 const Discount = () => {
   return (

@@ -1,23 +1,22 @@
 .container {
-  margin-left: 5px;
-  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%; /* Ancho máximo del contenedor principal */
 }
+
 .principal {
-  width: 534px;
-  height: 440px;
-  margin-bottom: 2px;
-  margin-left: 2px;
-  padding-bottom: 0px;
+  width: 100%; /* Ancho del 100% para ocupar todo el espacio disponible */
+  max-width: 100%; /* Ancho máximo del 100% para adaptarse al contenedor */
+  margin-bottom: 10px;
+  padding-bottom: 0px; /* Espacio entre el contenedor principal y el slider */
 }
-.principal img {
-  width: 490;
-  height: 480px;
-}
+
 .slider {
-  width: 534px;
-  height: 140px;
+  width: 100%; /* Ancho del 100% para ocupar todo el espacio disponible */
   display: flex;
   flex-direction: row;
   gap: 10px;
-  margin-left: 5px;
+  margin-top: 19px;
+  margin-left: 0; /* Eliminado el margen izquierdo */
+  margin-bottom: 2px; /* Espacio entre el slider y el siguiente elemento */
 }
