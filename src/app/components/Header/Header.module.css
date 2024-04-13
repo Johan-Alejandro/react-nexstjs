@@ -7,7 +7,7 @@
 }
 
 .title {
-  font-family: "Outfit", sans-serif;
+  font-family: 'Outfit', sans-serif;
   text-align: center;
   color: white;
   margin-top: 7px;
@@ -18,6 +18,23 @@
   display: block;
 }
 
+/*
+  FEEDBACK: Sugiero considerar los media querys de otra manera, usando una metodología
+  mobile-first. Esto significa, primero aplicar los estilos para mobile y luego ir aplicando
+  los media queries para pantallas, más grandes, en este caso sería:
+
+  .navBarContainer {
+    display: none;
+  }
+
+  @media (min-width: 1200px) {
+    .navBarContainer {
+      display: block;
+    }
+  }
+
+  Si te das cuenta, cambia el `max-width` por `min-width`
+*/
 @media (max-width: 1200px) {
   .navBarContainer {
     display: none;

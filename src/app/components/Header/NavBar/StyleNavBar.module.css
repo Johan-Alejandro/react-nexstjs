@@ -6,8 +6,13 @@
   width: 100%;
   margin-bottom: 11px;
 }
+
+/*
+  FEEDBACK: No estamos considerando el estado :hover del elemento, cuando el usuario
+  pasa el botón encima del link se debe pintar de negro y subrayarse
+*/
 .menu1 a {
-  font-family: "Outfit", sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 14px;
   color: white;
   text-decoration: none;
