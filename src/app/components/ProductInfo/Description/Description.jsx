@@ -1,8 +1,18 @@
-import Sabores from "../Sabores/Sabores";
-import Select from "../Select/Select";
-import Envio from "../Envio/Envio";
-import classes from "./StyleDescription.module.css";
+import Sabores from '../Sabores/Sabores';
+import Select from '../Select/Select';
+import Envio from '../Envio/Envio';
+import classes from './StyleDescription.module.css';
 
+/*
+  FEEDBACK: Aquí crearía más componentes, ProductInfo, ProductPrice, ProductDescription,
+  para que sea mas legible el código, podrías probar pasando props para que se demuestre
+  mejor tu manejo de componentes, ejemplo:
+
+  <ProductInfo
+    brand="Brand"
+    title="Whey Protein - Original"
+  />
+*/
 const Description = () => {
   return (
     <div className={classes.container}>

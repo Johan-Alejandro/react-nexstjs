@@ -4,15 +4,28 @@
   max-width: 90%;
 }
 
+/*
+  FEEDBACK: No es necesario especificar el `font-family: "Outfit", sans-serif;` en cada
+  texto de la aplicación, CSS significa "Estilos en cascada", por lo que si aplicas un
+  estilo a un elemento padre este se aplicara a sus elementos hijos.
+
+  En el caso de la tipografía, la familia se aplica al `body` y esto se replica al resto
+  de la aplicación. Y solo debemos de volver a aplicarla a otro elemento si por ejemplo
+  queremos usar una tipografía específica para otro elemento.
+
+  body {
+    font-family: 'Outfit', sans-serif;
+  }
+*/
 .title {
-  font-family: "Outfit", sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 12px;
   font-weight: 400;
   color: #4d525c;
 }
 
 .product {
-  font-family: "Outfit", sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 28px;
   font-weight: 600;
   color: #4d525c;
@@ -26,12 +39,12 @@
   border-radius: 5px;
   color: white;
   background-color: #eb00d3;
-  font-family: "Outfit", sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-weight: 600;
   font-size: 19px;
 }
 .pricefinish {
-  font-family: "Outfit", sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 32px;
   font-weight: 600;
   margin-right: 17px;
@@ -41,7 +54,7 @@
 .priceof {
   width: 101px;
   height: 23px;
-  font-family: "Outfit", sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-weight: 500;
   font-size: 24px;
   color: #666687;
@@ -54,7 +67,7 @@
   margin: 2px;
   line-height: 21.02px;
   text-align: center;
-  font-family: "Outfit", sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-weight: 500;
   font-size: 8px;
   background-color: #00fff033;
@@ -64,7 +77,7 @@
   width: 175px;
   height: 15px;
   margin-left: 6px;
-  font-family: "Outfit", sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 27px;
@@ -80,7 +93,7 @@
   background-color: #f5f4f4;
 }
 .text {
-  font-family: "Outfit", sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-weight: 400;
   font-size: 16px;
   margin: 12px;

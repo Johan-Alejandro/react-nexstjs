@@ -2,6 +2,8 @@ body {
   margin: 0px;
   overflow-x: hidden; /* Evita la barra de desplazamiento horizontal */
 }
+
+/* FEEDBACK: El código que viene debajo no tiene ningún efecto, se puede eliminar */
 @media (max-width: 1200px) {
   body {
     overflow-x: hidden;

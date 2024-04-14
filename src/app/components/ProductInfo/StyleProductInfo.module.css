@@ -1,3 +1,8 @@
+/*
+  FEEDBACK: Para generar espacios dentro de la sección preferible usar `padding` en vez de `margin`
+  para prevenir problemas no deseados de separación de elementos, cuando trabajas con fondos de
+  color por ejemplo
+*/
 .principal {
   margin: 20px 0px 20px 0px;
 }
